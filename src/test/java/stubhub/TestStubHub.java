@@ -18,7 +18,7 @@ public class TestStubHub {
 
     @BeforeTest
     public void openBrowser(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Roman\\IdeaProjects\\CalcTestProject\\chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Roman\\IdeaProjects\\CalcTestProject\\chromedriver.exe");
         driver = new ChromeDriver();
 //        System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver.exe");
 //        driver = new FirefoxDriver();

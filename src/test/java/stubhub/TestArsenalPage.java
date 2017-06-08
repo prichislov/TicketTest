@@ -19,8 +19,8 @@ public class TestArsenalPage {
     @BeforeTest
     public void openBrowser(){
 //        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Roman\\IdeaProjects\\CalcTestProject\\chromedriver.exe");
-//        driver = new ChromeDriver();
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
+//        driver = new FirefoxDriver();
     }
 
     @Test
