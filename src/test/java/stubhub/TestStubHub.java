@@ -12,18 +12,16 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Roman on 31.03.2017.
- */
+
 public class TestStubHub {
     private WebDriver driver;
 
     @BeforeTest
     public void openBrowser(){
-//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Roman\\IdeaProjects\\CalcTestProject\\chromedriver.exe");
-//        driver = new ChromeDriver();
-        System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver.exe");
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Roman\\IdeaProjects\\CalcTestProject\\chromedriver.exe");
+        driver = new ChromeDriver();
+//        System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver.exe");
+//        driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
